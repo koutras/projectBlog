@@ -1,0 +1,9 @@
+{
+    "name" : "blog",
+    "description": "My first try on yii",
+    "require": {
+        "phpunit/phpunit": "4.2.*",
+        "phpunit/phpunit-selenium": ">=1.2"
+    }
+}
+
