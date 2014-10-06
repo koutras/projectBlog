@@ -44,4 +44,9 @@ class SiteTest extends WebTestCase
 		$this->clickAndWait('link=Logout (demo)');
 		$this->assertTextPresent('Login');
 	}
+
+    public function testIssue()
+    {
+        $this->open('?r=issue');
+    }
 }
